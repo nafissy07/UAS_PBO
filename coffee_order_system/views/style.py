@@ -12,6 +12,10 @@ h1 { font-size: 2.8rem !important; margin-bottom: 0 !important; }
 .stButton > button { border-radius: 14px; font-weight: 700; border: 2px solid #cdb9a3; }
 .stButton > button[kind="primary"] { background: #BF8461; border-color: #BF8461; color: #fff; }
 .stButton > button:hover { transform: translateY(-1px); border-color: #BF8461; }
+[data-testid="stSidebar"] .stButton > button { justify-content: flex-start; text-align: left; padding: .55rem .9rem; }
+[data-testid="stSidebar"] .stButton > button p { text-align: left; font-size: 1rem; }
+[data-testid="stSidebar"] .stButton > button[kind="secondary"] { background: transparent; border-color: transparent; }
+[data-testid="stSidebar"] .stButton > button[kind="secondary"]:hover { background: #EADFCF; }
 .brand { font-family: 'Londrina Solid', sans-serif; font-size: 1.9rem; color: #7B4B3A; line-height: 1; }
 .brand small { display: block; font-family: 'Quicksand', sans-serif; font-size: .75rem; color: #8A6A5C; }
 </style>
